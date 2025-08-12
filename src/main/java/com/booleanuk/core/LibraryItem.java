@@ -8,6 +8,10 @@ public abstract class LibraryItem {
         this.title = title;
     }
 
+    public String getTitle() {
+        return this.title;
+    }
+
     public boolean isOnLoan() {
         return onLoan;
     }
